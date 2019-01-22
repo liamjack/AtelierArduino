@@ -3,23 +3,23 @@
 
 #define SS_PIN 10
 #define RST_PIN 9
-MFRC522 mfrc522(SS_PIN, RST_PIN);  // Create MFRC522 instance.
+MFRC522 mfrc522(SS_PIN, RST_PIN);
 
 void setup() {
-  Serial.begin(115200); // Initialize serial communications with the PC
-  SPI.begin();      // Init SPI bus
-  mfrc522.PCD_Init(); // Init MFRC522 card
+  Serial.begin(115200);
+  SPI.begin();
+  mfrc522.PCD_Init();
   Serial.println("Scan PICC to see UID and type...");
 }
 
 void loop() {
   // Look for new cards
-  if ( ! mfrc522.PICC_IsNewCardPresent()) {
+  if (!mfrc522.PICC_IsNewCardPresent()) {
     return;
   }
 
   // Select one of the cards
-  if ( ! mfrc522.PICC_ReadCardSerial()) {
+  if (!mfrc522.PICC_ReadCardSerial()) {
     return;
   }
 
