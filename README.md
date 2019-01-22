@@ -18,10 +18,11 @@ Une LED a une limite de courant à respecter, sinon elle s’auto-detruit. Pour 
 
 Au cœur de l’Arduino Nano se trouve l’ATmega328P de Microchip. C’est un microcontrôleur 8 bits basé sur l’architecture RISC.
 
-Ce microcontrôleur offre :
+## Quelques caracteristiques
+
 * 23 GPIO (General Purpose Input Output)
 * 6 sorties PWM
-* 6 canaux CAN (Convertisseur analogique - numerique)
+* 8 canaux CAN (Convertisseur analogique - numerique)
 * 32 kB de memoire flash
 * 1 kB de EEPROM (Electrically Erasable Programmable Read-Only Memory)
 * 2 kB de memoire vive (SRAM)
@@ -35,3 +36,24 @@ Ce microcontrôleur offre :
 
 * Actif: 0,2 mA
 * En veille: 0,1 µA
+
+# Arduino Nano
+
+Cette carte offre la même connectivité et caracteristiques que l'Arduino Uno, mais est de plus petite taille.
+
+![nanopinout](http://www.pighixxx.net/wp-content/uploads/2014/11/nano.png)
+
+## Quelques caracteristiques
+
+* 14 GPIO, dont 6 PWM
+* 8 entrées analogiques
+* Vitesse d'horloge de 16 MHz
+
+## Alimentation par la broche VIN
+
+* Minimum: 6 V
+* Maximum: 20 V
+
+## Consommation
+
+* Actif: 19 mA
