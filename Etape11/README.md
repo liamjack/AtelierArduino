@@ -4,6 +4,6 @@ Jusqu'à maintenant nous n'avons utilisé que les sorties de l'Arduino. Mais il 
 
 Relier le bouton poussoir à D2 et 5 V. Mettre une resistance 10 kohm entre D2 et GND, c'est ce que l'on appele un "Pull-down resistor". [En savoir plus](https://playground.arduino.cc/CommonTopics/PullUpDownResistor)
 
-![fritzing](https://github.com/liamjack/AtelierArduino/raw/master/Etape08/Etape08.png)
+![fritzing](https://github.com/liamjack/AtelierArduino/raw/master/Etape11/Etape11.png)
 
 Téléverser le code `Etape11.ino` sur l'Arduino et ouvrir le moniteur série.
