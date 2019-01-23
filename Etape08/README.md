@@ -4,7 +4,7 @@ Et si on utilisait plusieurs sorties, analogiques cette-fois, pour piloter une L
 
 Toujours un feu tricolore très simple.
 
-La LED RGB est en realité composé de trois LEDs de couleur differente. C'est que c'est la cathode commune qui a la broche la plus longue, ce qui donne, de gauche à droite:
+La LED RGB est en realité composé de trois LEDs de couleur differente. C'est la cathode commune qui a la broche la plus longue, ce qui donne, de gauche à droite:
 
 * Anode Rouge
 * Cathode commune
